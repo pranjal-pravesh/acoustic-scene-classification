@@ -23,7 +23,7 @@ final class AudioClassificationViewModel: ObservableObject {
     @Published var backend: InferenceBackend = .onnx
 
     private let recorder = AudioRecorder()
-    private let onnxClassifier = YamnetClassifier.shared
+    private let onnxClassifier = CNN14Classifier.shared
     private let tfliteClassifier = YamnetTFLiteClassifier.shared
 
     func start() {
@@ -192,9 +192,9 @@ struct ContentView: View {
             // Footer
             Group {
                 if viewModel.backend == .onnx {
-                    Text("Using ONNX Runtime • model.onnx + model.data")
+                    Text("Using ONNX Runtime • CNN14 (527 classes)")
                 } else {
-                    Text("Using TensorFlow Lite • yamnet.tflite")
+                    Text("Using TensorFlow Lite • YAMNet (521 classes)")
                 }
             }
             .font(.caption2)
