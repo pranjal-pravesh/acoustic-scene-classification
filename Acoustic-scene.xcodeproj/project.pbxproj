@@ -39,6 +39,7 @@
 		8A9E855D50FE52E18B916594 /* Pods_Acoustic_scene_Acoustic_sceneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Acoustic_scene_Acoustic_sceneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B858C1FE5B07C7708612A44B /* Pods-Acoustic-scene-Acoustic-sceneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acoustic-scene-Acoustic-sceneUITests.debug.xcconfig"; path = "Target Support Files/Pods-Acoustic-scene-Acoustic-sceneUITests/Pods-Acoustic-scene-Acoustic-sceneUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F0D7A7B826D56C776A3CCEB2 /* Pods-Acoustic-sceneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acoustic-sceneTests.debug.xcconfig"; path = "Target Support Files/Pods-Acoustic-sceneTests/Pods-Acoustic-sceneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F95EFBE62EEBDAA6007E5888 /* Acoustic-scene.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Acoustic-scene.xcodeproj"; sourceTree = "<group>"; };
 		F9F124DB2EEAEFF3005F75AF /* Acoustic-scene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Acoustic-scene.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F124E82EEAEFF4005F75AF /* Acoustic-sceneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acoustic-sceneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F124F22EEAEFF4005F75AF /* Acoustic-sceneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acoustic-sceneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +104,13 @@
 				616F18FE7AE540B2321A352E /* Pods_Acoustic_sceneTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F95EFBE92EEBDAA6007E5888 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		F9F124D22EEAEFF3005F75AF = {
@@ -244,6 +252,10 @@
 				{
 					ProductGroup = F9F1256D2EEB0332005F75AF /* Products */;
 					ProjectRef = F9F1256A2EEB0332005F75AF /* Acoustic-scene.xcodeproj */;
+				},
+				{
+					ProductGroup = F95EFBE92EEBDAA6007E5888 /* Products */;
+					ProjectRef = F95EFBE62EEBDAA6007E5888 /* Acoustic-scene.xcodeproj */;
 				},
 			);
 			projectRoot = "";

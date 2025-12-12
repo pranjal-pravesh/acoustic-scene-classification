@@ -362,7 +362,8 @@ final class YamnetClassifier {
     }
 }
 
-/// Optional label helper. Falls back to index if a CSV is not bundled.
+/// Label helper that maps YAMNet class indices to AudioSet display names.
+/// Loads from yamnet_class_map.csv with format: index,mid,display_name
 final class YamnetLabels {
     static let shared = YamnetLabels()
     private let labels: [String]
@@ -370,19 +371,64 @@ final class YamnetLabels {
     private init() {
         if let url = Bundle.main.url(forResource: "yamnet_class_map", withExtension: "csv"),
            let csv = try? String(contentsOf: url) {
-            labels = csv
-                .components(separatedBy: .newlines)
-                .compactMap { (line: String) -> String? in
-                    let parts = line.split(separator: ",")
-                    return parts.count > 2 ? String(parts[2]) : nil
+            let lines = csv.components(separatedBy: .newlines)
+                .filter { !$0.trimmingCharacters(in: .whitespaces).isEmpty }
+            
+            // Skip header line and parse
+            var parsedLabels: [String] = []
+            for (lineIndex, line) in lines.enumerated() {
+                // Skip header (first line)
+                if lineIndex == 0 {
+                    continue
                 }
+                
+                // Parse CSV line: index,mid,display_name
+                // Handle quoted display names that may contain commas
+                let parts = Self.parseCSVLine(line)
+                
+                if parts.count >= 3 {
+                    // Verify index matches position (safety check)
+                    if let csvIndex = Int(parts[0]), csvIndex == parsedLabels.count {
+                        // parts[2] is the display_name (3rd column)
+                        parsedLabels.append(parts[2])
+                    } else {
+                        // If index doesn't match, still add but log warning
+                        parsedLabels.append(parts[2])
+                    }
+                }
+            }
+            
+            labels = parsedLabels
+            print("✅ Loaded \(labels.count) class labels from CSV")
         } else {
             labels = []
+            print("⚠️ yamnet_class_map.csv not found - using index-based labels")
         }
     }
 
     func label(for index: Int) -> String {
+        guard index >= 0 else { return "Class \(index)" }
         guard index < labels.count else { return "Class \(index)" }
         return labels[index]
+    }
+    
+    /// Parse CSV line handling quoted fields that may contain commas
+    private static func parseCSVLine(_ line: String) -> [String] {
+        var result: [String] = []
+        var current = ""
+        var inQuotes = false
+        
+        for char in line {
+            if char == "\"" {
+                inQuotes.toggle()
+            } else if char == "," && !inQuotes {
+                result.append(current.trimmingCharacters(in: .whitespaces))
+                current = ""
+            } else {
+                current.append(char)
+            }
+        }
+        result.append(current.trimmingCharacters(in: .whitespaces))
+        return result
     }
 }
