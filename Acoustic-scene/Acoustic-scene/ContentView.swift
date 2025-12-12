@@ -12,6 +12,15 @@ import Combine
 enum InferenceBackend: String, CaseIterable {
     case onnx = "ONNX Runtime"
     case tflite = "TensorFlow Lite"
+    
+    var displayName: String {
+        switch self {
+        case .onnx:
+            return "ONNX (CNN14)"
+        case .tflite:
+            return "TFLite (YAMNet)"
+        }
+    }
 }
 
 final class AudioClassificationViewModel: ObservableObject {
@@ -105,7 +114,7 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 12) {
             // Header
-            Text("YAMNet Audio Classification")
+            Text("Acoustic Scene Classification")
                 .font(.title2)
                 .bold()
                 .padding(.top)
@@ -113,7 +122,7 @@ struct ContentView: View {
             // Backend Picker
             Picker("Backend", selection: $viewModel.backend) {
                 ForEach(InferenceBackend.allCases, id: \.self) { backend in
-                    Text(backend.rawValue).tag(backend)
+                    Text(backend.displayName).tag(backend)
                 }
             }
             .pickerStyle(.segmented)
