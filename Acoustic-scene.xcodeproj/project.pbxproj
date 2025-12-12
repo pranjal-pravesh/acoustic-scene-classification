@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		019A6B35FA098F95569B8ECF /* Pods_Acoustic_scene_Acoustic_sceneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A9E855D50FE52E18B916594 /* Pods_Acoustic_scene_Acoustic_sceneUITests.framework */; };
+		D27DF3B6211C316980FCF75A /* Pods_Acoustic_scene.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2CBBD0F4F5AE896245F089 /* Pods_Acoustic_scene.framework */; };
+		D506719CFA2A8C9CC531876E /* Pods_Acoustic_sceneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616F18FE7AE540B2321A352E /* Pods_Acoustic_sceneTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9F124E92EEAEFF4005F75AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F124D32EEAEFF3005F75AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F124DA2EEAEFF3005F75AF;
+			remoteInfo = "Acoustic-scene";
+		};
+		F9F124F32EEAEFF4005F75AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F124D32EEAEFF3005F75AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F124DA2EEAEFF3005F75AF;
+			remoteInfo = "Acoustic-scene";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A21663E597DE6B63ABCAB26 /* Pods-Acoustic-scene.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acoustic-scene.release.xcconfig"; path = "Target Support Files/Pods-Acoustic-scene/Pods-Acoustic-scene.release.xcconfig"; sourceTree = "<group>"; };
+		4C9EA1D20F1459E620FCF752 /* Pods-Acoustic-sceneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acoustic-sceneTests.release.xcconfig"; path = "Target Support Files/Pods-Acoustic-sceneTests/Pods-Acoustic-sceneTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F2CBBD0F4F5AE896245F089 /* Pods_Acoustic_scene.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Acoustic_scene.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F85DCF15CB8757220D518DF /* Pods-Acoustic-scene.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acoustic-scene.debug.xcconfig"; path = "Target Support Files/Pods-Acoustic-scene/Pods-Acoustic-scene.debug.xcconfig"; sourceTree = "<group>"; };
+		5DC79D25E62929C5FB1B30E9 /* Pods-Acoustic-scene-Acoustic-sceneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acoustic-scene-Acoustic-sceneUITests.release.xcconfig"; path = "Target Support Files/Pods-Acoustic-scene-Acoustic-sceneUITests/Pods-Acoustic-scene-Acoustic-sceneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		616F18FE7AE540B2321A352E /* Pods_Acoustic_sceneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Acoustic_sceneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9E855D50FE52E18B916594 /* Pods_Acoustic_scene_Acoustic_sceneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Acoustic_scene_Acoustic_sceneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B858C1FE5B07C7708612A44B /* Pods-Acoustic-scene-Acoustic-sceneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acoustic-scene-Acoustic-sceneUITests.debug.xcconfig"; path = "Target Support Files/Pods-Acoustic-scene-Acoustic-sceneUITests/Pods-Acoustic-scene-Acoustic-sceneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0D7A7B826D56C776A3CCEB2 /* Pods-Acoustic-sceneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acoustic-sceneTests.debug.xcconfig"; path = "Target Support Files/Pods-Acoustic-sceneTests/Pods-Acoustic-sceneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9F124DB2EEAEFF3005F75AF /* Acoustic-scene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Acoustic-scene.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F124E82EEAEFF4005F75AF /* Acoustic-sceneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acoustic-sceneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F124F22EEAEFF4005F75AF /* Acoustic-sceneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acoustic-sceneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F1250F2EEAF0EB005F75AF /* Acoustic-scene.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Acoustic-scene.xcodeproj"; sourceTree = "<group>"; };
+		F9F1256A2EEB0332005F75AF /* Acoustic-scene.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Acoustic-scene.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F9F124DD2EEAEFF3005F75AF /* Acoustic-scene */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Acoustic-scene";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9F124D82EEAEFF3005F75AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27DF3B6211C316980FCF75A /* Pods_Acoustic_scene.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F124E52EEAEFF4005F75AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D506719CFA2A8C9CC531876E /* Pods_Acoustic_sceneTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F124EF2EEAEFF4005F75AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019A6B35FA098F95569B8ECF /* Pods_Acoustic_scene_Acoustic_sceneUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32E6F29232653A5C3B69DBB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F85DCF15CB8757220D518DF /* Pods-Acoustic-scene.debug.xcconfig */,
+				2A21663E597DE6B63ABCAB26 /* Pods-Acoustic-scene.release.xcconfig */,
+				B858C1FE5B07C7708612A44B /* Pods-Acoustic-scene-Acoustic-sceneUITests.debug.xcconfig */,
+				5DC79D25E62929C5FB1B30E9 /* Pods-Acoustic-scene-Acoustic-sceneUITests.release.xcconfig */,
+				F0D7A7B826D56C776A3CCEB2 /* Pods-Acoustic-sceneTests.debug.xcconfig */,
+				4C9EA1D20F1459E620FCF752 /* Pods-Acoustic-sceneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E26D4EDB275B796D52B5E7FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F2CBBD0F4F5AE896245F089 /* Pods_Acoustic_scene.framework */,
+				8A9E855D50FE52E18B916594 /* Pods_Acoustic_scene_Acoustic_sceneUITests.framework */,
+				616F18FE7AE540B2321A352E /* Pods_Acoustic_sceneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9F124D22EEAEFF3005F75AF = {
+			isa = PBXGroup;
+			children = (
+				F9F124DD2EEAEFF3005F75AF /* Acoustic-scene */,
+				F9F124DC2EEAEFF3005F75AF /* Products */,
+				32E6F29232653A5C3B69DBB5 /* Pods */,
+				E26D4EDB275B796D52B5E7FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9F124DC2EEAEFF3005F75AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9F124DB2EEAEFF3005F75AF /* Acoustic-scene.app */,
+				F9F124E82EEAEFF4005F75AF /* Acoustic-sceneTests.xctest */,
+				F9F124F22EEAEFF4005F75AF /* Acoustic-sceneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9F125122EEAF0EB005F75AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9F1256D2EEB0332005F75AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9F124DA2EEAEFF3005F75AF /* Acoustic-scene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F124FC2EEAEFF4005F75AF /* Build configuration list for PBXNativeTarget "Acoustic-scene" */;
+			buildPhases = (
+				D8AD955F6710043A370BEE65 /* [CP] Check Pods Manifest.lock */,
+				F9F124D72EEAEFF3005F75AF /* Sources */,
+				F9F124D82EEAEFF3005F75AF /* Frameworks */,
+				F9F124D92EEAEFF3005F75AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F9F124DD2EEAEFF3005F75AF /* Acoustic-scene */,
+			);
+			name = "Acoustic-scene";
+			productName = "Acoustic-scene";
+			productReference = F9F124DB2EEAEFF3005F75AF /* Acoustic-scene.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9F124E72EEAEFF4005F75AF /* Acoustic-sceneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F124FF2EEAEFF4005F75AF /* Build configuration list for PBXNativeTarget "Acoustic-sceneTests" */;
+			buildPhases = (
+				9160A247F018D8DA3F766EF1 /* [CP] Check Pods Manifest.lock */,
+				F9F124E42EEAEFF4005F75AF /* Sources */,
+				F9F124E52EEAEFF4005F75AF /* Frameworks */,
+				F9F124E62EEAEFF4005F75AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F124EA2EEAEFF4005F75AF /* PBXTargetDependency */,
+			);
+			name = "Acoustic-sceneTests";
+			productName = "Acoustic-sceneTests";
+			productReference = F9F124E82EEAEFF4005F75AF /* Acoustic-sceneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9F124F12EEAEFF4005F75AF /* Acoustic-sceneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F125022EEAEFF4005F75AF /* Build configuration list for PBXNativeTarget "Acoustic-sceneUITests" */;
+			buildPhases = (
+				9C2B88647021B8A9F64FC810 /* [CP] Check Pods Manifest.lock */,
+				F9F124EE2EEAEFF4005F75AF /* Sources */,
+				F9F124EF2EEAEFF4005F75AF /* Frameworks */,
+				F9F124F02EEAEFF4005F75AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F124F42EEAEFF4005F75AF /* PBXTargetDependency */,
+			);
+			name = "Acoustic-sceneUITests";
+			productName = "Acoustic-sceneUITests";
+			productReference = F9F124F22EEAEFF4005F75AF /* Acoustic-sceneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9F124D32EEAEFF3005F75AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					F9F124DA2EEAEFF3005F75AF = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					F9F124E72EEAEFF4005F75AF = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = F9F124DA2EEAEFF3005F75AF;
+					};
+					F9F124F12EEAEFF4005F75AF = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = F9F124DA2EEAEFF3005F75AF;
+					};
+				};
+			};
+			buildConfigurationList = F9F124D62EEAEFF3005F75AF /* Build configuration list for PBXProject "Acoustic-scene" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9F124D22EEAEFF3005F75AF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F9F124DC2EEAEFF3005F75AF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F9F125122EEAF0EB005F75AF /* Products */;
+					ProjectRef = F9F1250F2EEAF0EB005F75AF /* Acoustic-scene.xcodeproj */;
+				},
+				{
+					ProductGroup = F9F1256D2EEB0332005F75AF /* Products */;
+					ProjectRef = F9F1256A2EEB0332005F75AF /* Acoustic-scene.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F9F124DA2EEAEFF3005F75AF /* Acoustic-scene */,
+				F9F124E72EEAEFF4005F75AF /* Acoustic-sceneTests */,
+				F9F124F12EEAEFF4005F75AF /* Acoustic-sceneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9F124D92EEAEFF3005F75AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F124E62EEAEFF4005F75AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F124F02EEAEFF4005F75AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9160A247F018D8DA3F766EF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Acoustic-sceneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C2B88647021B8A9F64FC810 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Acoustic-scene-Acoustic-sceneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8AD955F6710043A370BEE65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Acoustic-scene-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9F124D72EEAEFF3005F75AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F124E42EEAEFF4005F75AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F124EE2EEAEFF4005F75AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9F124EA2EEAEFF4005F75AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F124DA2EEAEFF3005F75AF /* Acoustic-scene */;
+			targetProxy = F9F124E92EEAEFF4005F75AF /* PBXContainerItemProxy */;
+		};
+		F9F124F42EEAEFF4005F75AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F124DA2EEAEFF3005F75AF /* Acoustic-scene */;
+			targetProxy = F9F124F32EEAEFF4005F75AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F9F124FA2EEAEFF4005F75AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 37RL6BXA96;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9F124FB2EEAEFF4005F75AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 37RL6BXA96;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9F124FD2EEAEFF4005F75AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F85DCF15CB8757220D518DF /* Pods-Acoustic-scene.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37RL6BXA96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone access to record audio for acoustic scene classification.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pranjal.acousticscene.Acoustic-scene";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9F124FE2EEAEFF4005F75AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A21663E597DE6B63ABCAB26 /* Pods-Acoustic-scene.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37RL6BXA96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone access to record audio for acoustic scene classification.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pranjal.acousticscene.Acoustic-scene";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9F125002EEAEFF4005F75AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D7A7B826D56C776A3CCEB2 /* Pods-Acoustic-sceneTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37RL6BXA96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pranjal.acousticscene.Acoustic-sceneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acoustic-scene.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Acoustic-scene";
+			};
+			name = Debug;
+		};
+		F9F125012EEAEFF4005F75AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9EA1D20F1459E620FCF752 /* Pods-Acoustic-sceneTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37RL6BXA96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pranjal.acousticscene.Acoustic-sceneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acoustic-scene.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Acoustic-scene";
+			};
+			name = Release;
+		};
+		F9F125032EEAEFF4005F75AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B858C1FE5B07C7708612A44B /* Pods-Acoustic-scene-Acoustic-sceneUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37RL6BXA96;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pranjal.acousticscene.Acoustic-sceneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Acoustic-scene";
+			};
+			name = Debug;
+		};
+		F9F125042EEAEFF4005F75AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC79D25E62929C5FB1B30E9 /* Pods-Acoustic-scene-Acoustic-sceneUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 37RL6BXA96;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pranjal.acousticscene.Acoustic-sceneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Acoustic-scene";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9F124D62EEAEFF3005F75AF /* Build configuration list for PBXProject "Acoustic-scene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F124FA2EEAEFF4005F75AF /* Debug */,
+				F9F124FB2EEAEFF4005F75AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F124FC2EEAEFF4005F75AF /* Build configuration list for PBXNativeTarget "Acoustic-scene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F124FD2EEAEFF4005F75AF /* Debug */,
+				F9F124FE2EEAEFF4005F75AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F124FF2EEAEFF4005F75AF /* Build configuration list for PBXNativeTarget "Acoustic-sceneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F125002EEAEFF4005F75AF /* Debug */,
+				F9F125012EEAEFF4005F75AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F125022EEAEFF4005F75AF /* Build configuration list for PBXNativeTarget "Acoustic-sceneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F125032EEAEFF4005F75AF /* Debug */,
+				F9F125042EEAEFF4005F75AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9F124D32EEAEFF3005F75AF /* Project object */;
+}
